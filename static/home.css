@@ -1,0 +1,132 @@
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 20px; /* Padding around the body */
+    font-family: Arial, sans-serif; /* Consistent font */
+}
+.header {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.home-button {
+    padding: 10px 15px; /* Button padding */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+
+#main-title {
+    text-align: center;
+    font-size: 2.5em; /* Title size */
+    color: #333; /* Dark grey color */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.search-input {
+    padding: 8px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #0d9bf4; /* Header color */
+    color: black; /* White text for headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey for even rows */
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Highlight on hover */
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-buttons button {
+    padding: 4px 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.action-buttons button.edit {
+    background-color: #007bff; /* Edit button color */
+    color: white;
+    border: none;
+}
+
+.action-buttons button.delete {
+    background-color: #dc3545; /* Delete button color */
+    color: white;
+    border: none;
+}
+
+.action-buttons button:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    position:fixed;
+    background-color: #fff; /* White background for contrast */
+    bottom: 20px;
+    padding: 5px 0; /* Smaller padding */
+}
+
+.pagination a {
+    margin: 0 3px; /* Smaller margin */
+    padding: 6px 10px; /* Smaller padding */
+    background-color: #007bff; /* Pagination button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px; /* Smaller font size */
+}
+
+.pagination a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
